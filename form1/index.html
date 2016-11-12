@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Forms</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            fieldset {
+                border: 1px solid grey;
+                padding: 20px;
+                margin-bottom: 20px;
+            }
+
+            label {
+                width: 150px;
+                display: inline-block;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="wrapper">
+    	    <div id="main">
+    		    <div id="container">
+    			    <div id="content" role="main">
+                        <!-- Your code should go here -->
+                        <h1>Order Form</h1>
+                        <div>
+                            <fieldset>
+                                <legend>General info</legend>
+                                    <form>
+                                        <label for="email">Email</label>
+                                        <input id ="email" type="email" placeholder="your@email.com">
+                                    </form>
+                                    <form>
+                                        <label for="login">Login</label>
+                                        <input id = "login" type="text" name ="login" placeholder="Login">
+                                    </form>
+                                    <form>
+                                        <label for="password">Password</label>
+                                        <input id="password" type="password" placeholder="Password">
+                                    </form>
+                            </fieldset>
+                        </div>
+
+                        <div>
+                            <fieldset>
+                                <legend>User info</legend>
+                                    <form>
+                                        <label for="first">First Name</label>
+                                        <input id ="first" type="text" placeholder="John">
+                                    </form>
+                                    <form>
+                                        <label for="second">Second Name</label>
+                                        <input id ="second" type="text" placeholder="Doe">
+                                    </form>
+                                    <form>
+                                        <label for="gender">Gender</label>
+                                       <input id ="gender" type="radio" name="Gender">Male
+                                       <input id = "gender2" type="radio" name="Gender">Female
+                                     </form>
+                                    <form>
+                                        <label for="Age">Age</label>
+                                        <input id = "Age" type="number" placeholder="32">
+                                    </form>
+                                    <form>
+                                        <label for="About">About me</label>
+                                        <textarea id = "About" cols="20" rows="5"></textarea>
+                                    </form>
+                            </fieldset>
+                        </div>
+
+                        <div>
+                            <fieldset>
+                                <legend>Order info</legend>
+                                    <form>
+                                        <label for="Product">Product</label>
+                                        <select id="Product">
+                                            <option id = "Product1" value="Iphone">Iphone</option>
+                                            <option id = "Product2" value="Samsung">Samsung</option>
+                                            <option id = "Product3" value="Xiaomi">Xiaoni</option>
+                                            <option id = "Product4" value="LG">LG</option>
+                                        </select>
+                                    </form>
+                                    <form>
+                                        <label for="Frontcolor">Front Color</label>
+                                        <input id = "Frontcolor" type="radio" name="frontcolor">Black
+                                        <input id = "Frontcolor2" type="radio" name="frontcolor">Pink
+                                        <input id = "Frontcolor3" type="radio" name= "frontcolor">Gold
+                                    </form>
+                                    <form>
+                                        <label for="Backcolor">Back-side color</label>
+                                        <input id = "Backcolor" type="color">
+                                    </form>
+                                    <form>
+                                        <label for="Amount">Amount</label>
+                                        <input id = "Amount" type="number" placeholder="5">
+                                    </form>
+                                    <form>
+                                        <label for="Delivery">Delivery Date</label>
+                                        <input id = "Delivery" type="Date">
+                                    </form>
+                            </fieldset>
+                        </div>
+                        <form>
+                            <input type="Reset" value="Reset">
+                            <input type="Submit" value="Submit">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
