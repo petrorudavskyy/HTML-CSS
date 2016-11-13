@@ -20,6 +20,12 @@
 	color: #E64B07;
 }
 
+.logo h1 {
+	padding-top: 10px;
+	font-size: 40px;
+	margin-bottom: 10px;
+}
+
 .logo span {
 	color: #ED8D8D;
 }
@@ -58,13 +64,14 @@
 	font-family: 'bebasregular', Arial, sans-serif;
 	font-size: 30px;
 	color: white;
-	width: 100%;
+	width: 98.5%;
 	height: 40px;
 	background-color: #E64B07;
 	padding-top: 18px;
 	padding-left: 15px;
-
 }
+
+
 
 .maincontent {
 	width: 100%;
@@ -81,7 +88,7 @@
 	height: 75px;
 	float: right;
 	background-image: url('../img/homebar.jpg');
-	margin-top: 132px;
+	margin-top: 30px;
 	margin-left: -83px;
 	
 }
@@ -92,7 +99,7 @@
 	height: 75px;
 	float: right;
 	background-image: url('../img/homebar.jpg');
-	margin-top: 864px;
+	margin-top: 355px;
 	margin-left: -83px;
 }
 
@@ -167,7 +174,7 @@
 /*finish style for about.html*/
 /*start syle for blog.html*/
 .content1 img {
-	margin-top: 20px;
+	margin-top: 30px;
 	width: 100%;
 }
 
@@ -289,10 +296,11 @@
 
 .middlehead h2 {
 	width: 40%;
+	padding-right: 15px;
 }
 
 .middlesidebar h2{
-	width: 40%;
+
 	font-size: 20px;
 	float: left;
 	font-family: 'bebasregular' , Arial, sans-serif;
@@ -305,7 +313,7 @@
 	margin-top: 20px;
 	margin-bottom: 30px;
 	float: right;
-	width: 50%;
+	width: 40%;
 	height: 11px;
 	background-image: url('../img/line.png');
 }
@@ -349,20 +357,22 @@
 .mainfooter {
 	width: 100%;
 	height: 300px;
-	background-color: #EA4F1F;
+	background-color: #e8663c;
 	float: left;
 	margin-top: 60px;
 }
 
 .firsbot {
-	padding: 20px 20px;
+	padding-top: 15px;
+	padding-left: 20px;
 	width: 30%;
 	float: left;
 	color: white;
 }
 
 .secbot {
-	padding:20px 10px;
+	padding-top: 15px;
+	padding-left:15px;
 	width: 30%;
 	float: left;
 	color: white;
@@ -373,7 +383,8 @@
 }
 
 .thirbot {
-	padding: 20px 15px ;
+	padding-top: 15px;
+	padding-left: 15px;
 	width: 30%;
 	float: left;
 	color: white;
