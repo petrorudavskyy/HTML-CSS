@@ -203,6 +203,7 @@
 }
 /*bar in content which are left*/
 .different1 {
+	height: 230px;
 	width: 30%;
 	float: left;
 }
@@ -232,7 +233,7 @@
 
 
 .line {
-	margin-top: 20px;
+	margin-top: 30px;
 	background-image: url('../img/line.png');
 	width: 70%;
 	height: 17px;
