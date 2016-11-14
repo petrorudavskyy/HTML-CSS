@@ -30,15 +30,15 @@
                                         <legend>General info</legend>
                                             
                                                 <label for="email">Email</label>
-                                                <input id ="email" type="email" placeholder="your@email.com">
+                                                <input id ="email" type="email" placeholder="your@email.com" required>
                                                 <br />
                                             
                                                 <label for="login">Login</label>
-                                                <input id = "login" type="text" name ="login" placeholder="Login">
+                                                <input id = "login" type="text" name ="login" placeholder="Login" pattern="^[A-Za-z1-3]+$" required>
                                                 <br />
                                             
                                                 <label for="password">Password</label>
-                                                <input id="password" type="password" placeholder="Password">
+                                                <input id="password" type="password" placeholder="Password" required>
                                                 <br />
                                     </fieldset>
                                 </div>
@@ -48,11 +48,11 @@
                                         <legend>User info</legend>
                                             
                                                 <label for="first">First Name</label>
-                                                <input id ="first" type="text" placeholder="John">
+                                                <input id ="first" type="text" placeholder="John" required>
                                             <br />
                                             
                                                 <label for="second">Second Name</label>
-                                                <input id ="second" type="text" placeholder="Doe">
+                                                <input id ="second" type="text" placeholder="Doe" required>
                                             <br />
                                             
                                                 <label for="gender">Gender</label>
@@ -61,11 +61,11 @@
                                             <br />
                                             
                                                 <label for="Age">Age</label>
-                                                <input id = "Age" type="number" placeholder="32">
+                                                <input id = "Age" type="number" placeholder="32" required>
                                         
                                             <br />
                                                 <label for="About">About me</label>
-                                                <textarea id = "About" cols="20" rows="5"></textarea>
+                                                <textarea id = "About" cols="20" rows="5" required></textarea>
                                             <br />
                                     </fieldset>
                                 </div>
@@ -90,11 +90,11 @@
                                             <br />
                                             
                                                 <label for="Backcolor">Back-side color</label>
-                                                <input id = "Backcolor" type="color">
+                                                <input id = "Backcolor" type="color" required>
                                             <br />
                                             
                                                 <label for="Amount">Amount</label>
-                                                <input id = "Amount" type="number" placeholder="5">
+                                                <input id = "Amount" type="number" placeholder="5" required>
                                             <br />
                                             
                                                 <label for="Delivery">Delivery Date</label>
